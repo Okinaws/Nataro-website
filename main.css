@@ -103,25 +103,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .possibility {
     color: #201b2d;
-    width: 350px;
-    height: 110px;
-    padding-left: 100px;
 }
 
 .pos-title {
     font-size: 17px;
 }
 
-.pos1{
-    background: url('../icon1.jpg') no-repeat left top;
-}
-
-.pos2{
-    background: url('../icon2.jpg') no-repeat left top;
-}
-
-.pos3{
-    background: url('../icon3.jpg') no-repeat left top;
+.pos1, .pos2, .pos3 {
+    display: flex;
 }
 
 .mail {
